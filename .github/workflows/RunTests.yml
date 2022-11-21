@@ -18,4 +18,4 @@ jobs:
       - name: Executing tests
         run: |
         pwd
-        python3 Tools/RunTests.py build/tests
+        python3 ${{github.workspace}}/Tools/RunTests.py ${{github.workspace}}/build/tests
