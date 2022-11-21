@@ -16,5 +16,4 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Executing tests
-        run: |
-        python3 ${{github.workspace}}/Tools/RunTests.py ${{github.workspace}}/build/tests
+        run: python3 ${{github.workspace}}/Tools/RunTests.py ${{github.workspace}}/build/tests
